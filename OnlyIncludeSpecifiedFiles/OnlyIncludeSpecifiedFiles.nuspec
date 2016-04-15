@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>OnlyIncludeSpecifiedFiles</id>
+    <title>OnlyIncludeSpecifiedFiles</title>
+    <version>1.0.0</version>
+    <authors>Octopus</authors>
+    <owners>Octopus</owners>
+    <licenseUrl>http://yourcompany.com</licenseUrl>
+    <projectUrl>http://yourcompany.com</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A sample project</description>
+  </metadata>
+  <files>
+	  <file src="..\ExtraFiles\TestFile.txt" target="" />
+  </files>
+</package>
